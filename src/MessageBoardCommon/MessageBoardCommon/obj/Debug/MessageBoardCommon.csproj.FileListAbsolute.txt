@@ -1,0 +1,4 @@
+E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\MessageBoardCommon.dll
+E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\MessageBoardCommon.pdb
+E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon.dll
+E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon.pdb
