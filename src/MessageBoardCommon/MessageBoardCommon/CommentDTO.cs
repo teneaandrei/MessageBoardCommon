@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MessageBoardDTO
 {
     [DataContract]
-    public class tblComment
+    public class CommentDTO
     {
         [DataMember]
         public int CommentID { get; set; }
@@ -32,16 +32,16 @@ namespace MessageBoardDTO
         public System.DateTime CreationDate { get; set; }
 
         [DataMember]
-        public virtual tblUser tblUser { get; set; }
+        public virtual UserDTO tblUser { get; set; }
 
         [DataMember]
-        public virtual tblPost tblPost { get; set; }
+        public virtual PostDTO tblPost { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 
         [DataMember]
-        public virtual ICollection<tblComment> tblComment1 { get; set; }
+        public virtual ICollection<CommentDTO> tblComment1 { get; set; }
 
         [DataMember]
-        public virtual tblComment tblComment2 { get; set; }
+        public virtual CommentDTO tblComment2 { get; set; }
     }
 }
