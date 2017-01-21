@@ -20,8 +20,15 @@ namespace MessageBoardDTO
 
         public string PasswordHash { get; set; }
 
+<<<<<<< HEAD
         public string PasswordSalt { get; set; }
 
+=======
+        [DataMember]
+        public string PasswordSalt { get; set; }
+
+        [DataMember]
+>>>>>>> eebe82a55675486090a0976488b7a3bdf312605a
         public string Country { get; set; }
 
         public string City { get; set; }
