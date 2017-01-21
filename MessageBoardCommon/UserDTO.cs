@@ -26,6 +26,9 @@ namespace MessageBoardDTO
         public string PasswordHash { get; set; }
 
         [DataMember]
+        public string PasswordSalt { get; set; }
+
+        [DataMember]
         public string Country { get; set; }
 
         [DataMember]
