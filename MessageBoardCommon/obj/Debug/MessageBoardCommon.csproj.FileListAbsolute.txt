@@ -2,3 +2,7 @@ E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\bin
 E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\MessageBoardCommon.pdb
 E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon.dll
 E:\MessageBoard\MessageBoardCommon\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon.pdb
+E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\MessageBoardCommon1.dll
+E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\MessageBoardCommon1.pdb
+E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon1.dll
+E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon1.pdb
