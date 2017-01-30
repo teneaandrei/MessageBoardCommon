@@ -49,14 +49,5 @@ namespace MessageBoardDTO
         [DataMember]
         public System.DateTime AccountCreationDate { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-
-        [DataMember]
-        public virtual ICollection<CommentDTO> tblComments { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-
-        [DataMember]
-        public virtual ICollection<PostDTO> tblPosts { get; set; }
-
     }
 }
