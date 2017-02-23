@@ -12,9 +12,7 @@ namespace MessageBoardCommon
 {
     public static class Logger
     {
-        //private static readonly ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        private static readonly ILog _logError = log4net.LogManager.GetLogger("Error");
-        private static readonly ILog _logWrongPassword = log4net.LogManager.GetLogger("Summary");
+        private static readonly ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         static Logger()
         {
             log4net.Config.XmlConfigurator.Configure();
@@ -22,11 +20,11 @@ namespace MessageBoardCommon
 
         public static void Error(string format, params object[] args)
         {
-            _logError.Error(string.Format(format, args));
+            _log.Error(string.Format(format, args));
         }
         public static void Information(string format, params object[] args)
         {
-            _logWrongPassword.Info(string.Format(format, args));
+            _log.Info(string.Format(format, args));
         }
     }
 }
