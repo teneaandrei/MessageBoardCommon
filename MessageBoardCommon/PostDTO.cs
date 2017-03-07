@@ -28,6 +28,8 @@ namespace MessageBoardDTO
         [DataMember]
         public System.DateTime CreationDate { get; set; }
 
+        public DateTime? LastCommentDate { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 
         [DataMember]
