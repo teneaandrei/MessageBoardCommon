@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MessageBoardCommon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace MessageBoardDTO
 {
     
-    public partial class UserDTO
+    public partial class UserDTO : BaseDTO
     {
         public int UserID { get; set; }
         

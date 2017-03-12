@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MessageBoardCommon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace MessageBoardDTO
 {
     [DataContract]
-    public class PostDTO
+    public class PostDTO : BaseDTO
     {
         [DataMember]
         public int PostID { get; set; }
