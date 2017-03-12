@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
 
-namespace MessageBoardCommon
+namespace MessageBoardDTO
 {
+    [DataContract]
     public class BaseDTO
     {
+        [DataMember]
         public bool IsError { get; set; }
+        [DataMember]
         public bool ErrorMessage { get; set; }
     }
 }
