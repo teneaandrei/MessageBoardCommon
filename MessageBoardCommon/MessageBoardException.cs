@@ -12,7 +12,10 @@ namespace MessageBoardCommon
             : base() { }
 
         public MessageBoardException(string message)
-            : base(message) { }
+            : base(message)
+        {
+            
+        }
 
         public MessageBoardException(string format, params object[] args)
             : base(string.Format(format, args)) { }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MessageBoardDTO
 {
     [DataContract]
-    public class PostDTO : BaseDTO
+    public class PostDTO
     {
         [DataMember]
         public int PostID { get; set; }

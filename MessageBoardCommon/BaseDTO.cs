@@ -13,6 +13,6 @@ namespace MessageBoardCommon
         [DataMember]
         public bool IsError { get; set; }
         [DataMember]
-        public bool ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; }
     }
 }

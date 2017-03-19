@@ -9,7 +9,7 @@ namespace MessageBoardCommon
 {
     public static class Logger
     {
-        private static readonly ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().Name);
         static Logger()
         {
             log4net.Config.XmlConfigurator.Configure();
