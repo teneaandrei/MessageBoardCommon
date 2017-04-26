@@ -24,5 +24,18 @@ namespace MessageBoardCommon
         public const string ExceptionService = "Please check connection with service";
         public const string ExceptionNullObjReference = "Please fill all fields";
 
+        //Form names
+        public const string AddCommentsForm = "AddCommentsForm";
+        public const string AddPostForm = "AddPostForm";
+        public const string ChangePasswordForm = "ChangePasswordForm";
+        public const string ChangeProfilePictureForm = "ChangeProfilePictureForm";
+        public const string CommentsForm = "CommentsForm";
+        public const string DisplayUsersForm = "DisplayUsersForm";
+        public const string ForumForm = "ForumForm";
+        public const string LoginForm = "LoginForm";
+        public const string MainForm = "MainForm";
+        public const string RegisterForm = "RegisterForm";
+        public const string UserDetailsForm = "UserDetailsForm";
+
     }
 }
