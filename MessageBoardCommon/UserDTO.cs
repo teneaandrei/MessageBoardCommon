@@ -44,6 +44,8 @@ namespace MessageBoardDTO
         [DataMember]
         public string ErrorMessage { get; set; }
         [DataMember]
+        public Nullable<int> LanguageID { get; set; }
+        [DataMember]
         public string LanguageName { get; set; }
     }
 }
