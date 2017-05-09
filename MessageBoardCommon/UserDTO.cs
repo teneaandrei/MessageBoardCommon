@@ -43,5 +43,7 @@ namespace MessageBoardDTO
         public bool IsError { get; set; }
         [DataMember]
         public string ErrorMessage { get; set; }
+        [DataMember]
+        public string LanguageName { get; set; }
     }
 }
