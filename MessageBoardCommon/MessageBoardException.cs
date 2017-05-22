@@ -38,17 +38,21 @@ namespace MessageBoardCommon
         {
             if (_ex is TimeoutException)
             {
-                XtraMessageBox.Show(Constants.ERR_TIMEOUT_EX);
+                XtraMessageBox.Show(_ex.Message);
             }
             if (_ex is EndpointNotFoundException)
             {
-                XtraMessageBox.Show(Constants.ExceptionService);
+                XtraMessageBox.Show(_ex.Message);
             }
             if (_ex is NullReferenceException)
             {
-                XtraMessageBox.Show(Constants.ExceptionNullObjReference);
+                XtraMessageBox.Show(_ex.Message);
             }
             if (_ex is SqlException)
+            {
+                XtraMessageBox.Show(_ex.Message);
+            }
+            if(_ex is MessageBoardException)
             {
                 XtraMessageBox.Show(_ex.Message);
             }

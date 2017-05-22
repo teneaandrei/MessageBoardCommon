@@ -49,5 +49,6 @@ E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug
 E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
 E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
 E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon.csprojResolveAssemblyReference.cache
 E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon1.dll
 E:\MessageBoard\MessageBoard\src\MessageBoardCommon\MessageBoardCommon\obj\Debug\MessageBoardCommon1.pdb
