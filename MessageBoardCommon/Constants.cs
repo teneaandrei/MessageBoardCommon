@@ -36,6 +36,6 @@ namespace MessageBoardCommon
         public const string MainForm = "MainForm";
         public const string RegisterForm = "RegisterForm";
         public const string UserDetailsForm = "UserDetailsForm";
-
+        public const string ReportsForm = "ReportsForm";       
     }
 }
